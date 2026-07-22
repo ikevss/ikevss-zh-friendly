@@ -1,7 +1,7 @@
 # ikevss-zh-friendly
 
-> 你的 AI 装了一堆英文技能。你看不懂，它也不知道自己有多少能力。
-> 点一下，全变中文。
+> 装了一堆英文技能，看名字不知道是干嘛的。调用前还得先猜。
+> 这个技能把它们全翻译成中文，一眼看懂。
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
@@ -16,7 +16,7 @@
 
 但每次打开斜杠菜单，一排 `Generate mermaid diagrams`、`Deploy the application`、`Executive summary generator`……
 
-**我不知道哪个是干什么的。AI 自己也不知道自己有多少能力。**
+我不知道哪个是干什么的。AI 自己也不知道自己有多少能力。
 
 所以我写了这个技能。它做的事很简单：扫一遍你电脑上所有的 AI 工具，把英文描述翻译成中文，生成一张能力清单告诉 AI"你有这些本事"。
 
@@ -83,7 +83,7 @@ npx skills add ikevss/ikevss-zh-friendly
 |---------|---------|
 | 英语一般但想用好 AI 工具的人 | 所有技能描述已经是中文了 |
 | 装了几十个 skills 记不住哪个是干什么的 | 你只用一两个技能 |
-| 想让 AI 像中文助理一样跟你对话 | 你喜欢看英文界面 |
+| 想让技能描述一眼看懂 | 你喜欢看英文界面 |
 | 同时用好几个 AI 工具（Claude Code / TRAE / Codex） | — |
 
 ---
