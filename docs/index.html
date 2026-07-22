@@ -205,7 +205,7 @@ ikevss-zh-friendly
 <div class="hero-left reveal">
 <div class="hero-tag">AI 技能描述中文化</div>
 <h1>装了一堆 skill，<br>不知道是干嘛的？<br><mark>翻成中文就看懂了</mark></h1>
-<p class="hero-desc">把你的 Claude Code、TRAE、Codex 里所有英文技能描述翻译成中文。默认 dry-run，确认了才改。</p>
+<p class="hero-desc">把你的 Claude Code、TRAE、Codex 里所有英文技能描述翻译成中文。默认只看不改，确认了再执行。</p>
 <div class="cta">
 <a href="#install" class="btn btn-primary">
 <svg class="svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
@@ -236,7 +236,7 @@ ikevss-zh-friendly
 <div class="section-label reveal">先说背景</div>
 <div class="section-head reveal" style="margin-bottom:clamp(48px,8vh,72px)">
 <h2>这事得从头说</h2>
-<p>有一天我数了一下斜杠菜单——352 个技能。Generate mermaid diagrams、Deploy application、Executive summary generator……像猜谜一样，你得点进去试。试对了，好。试错了，浪费一个 round trip。</p>
+<p>有一天我数了一下斜杠菜单——352 个技能。Generate mermaid diagrams、Deploy application、Executive summary generator……像猜谜一样，你得点进去试。那得试。试对了就知道，试错了白费一次。</p>
 </div>
 
 <div class="zigzag reveal">
@@ -383,7 +383,7 @@ ikevss-zh-friendly
 <code>npx skills add ikevss/ikevss-zh-friendly</code>
 <div class="label" style="margin-top:24px">使用</div>
 <code>/ikevss-zh-friendly zh</code>
-<div class="hint">跟前面说的一样——加了 --confirm 才动手。改前自动备份，不放心先 dry-run 预览。</div>
+<div class="hint">跟前面说的一样——加了 --confirm 才动手。改前自动备份，不放心先预览。</div>
 </div>
 </div>
 </section>
@@ -396,7 +396,7 @@ ikevss-zh-friendly
 </div>
 <div class="faq-grid">
 <div class="faq-item reveal"><h4>翻完还能正常用吗？</h4><p>能。英文关键词原样保留，额外加了中文口语表达。实测过了，原来英文能触发的依然能，你用中文说也能。</p></div>
-<div class="faq-item reveal"><h4>不会把 Agent 改坏吧？</h4><p>Agent 正文一个字不动。只改给人看的那行 description。改完还会逐字符校验——多了一个空格都会自动从备份恢复。</p></div>
+<div class="faq-item reveal"><h4>不会把 Agent 改坏吧？</h4><p>Agent 正文一个字不动。只改给人看的那行 description。改完还会逐个字符校对——多一个空格都会自动恢复。</p></div>
 <div class="faq-item reveal"><h4>更新了会不会又变回英文？</h4><p>marketplace 来源的有可能。加 --overlay 就行——不碰原 description，新加一个 description_zh 字段存中文。</p></div>
 <div class="faq-item reveal"><h4>其他 AI 工具也管吗？</h4><p>管。TRAE Work、Codex、Cursor、Windsurf、WorkBuddy、OpenClaw——电脑上有哪个扫哪个。Antigravity 例外，那个只读不写。</p></div>
 </div>
