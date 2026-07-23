@@ -27,7 +27,7 @@
 ## 30 秒开始
 
 ```bash
-npx skills add ikevss/ikevss-zh-friendly
+npx skills add ikevss/zh-friendly
 ```
 
 装完直接跟 AI 说：
@@ -131,13 +131,13 @@ npx skills add ikevss/ikevss-zh-friendly
 ## 安装
 
 ```bash
-npx skills add ikevss/ikevss-zh-friendly
+npx skills add ikevss/zh-friendly
 ```
 
 或手动：
 
 ```bash
-git clone https://github.com/ikevss/ikevss-zh-friendly.git ~/.claude/skills/ikevss-zh-friendly
+git clone https://github.com/ikevss/zh-friendly.git ~/.claude/skills/ikevss-zh-friendly
 ```
 
 ---
