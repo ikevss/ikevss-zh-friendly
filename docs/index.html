@@ -54,7 +54,9 @@ nav .links a:hover{color:var(--ink)}
 
 /* Hero — asymmetric split, left-aligned */
 .hero{padding:clamp(100px,16vh,160px) 0 clamp(60px,10vh,100px)}
-.hero .container{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,8vw,80px);align-items:center}
+.hero .container{display:flex;flex-wrap:wrap;gap:clamp(32px,6vw,64px);align-items:center}
+.hero .hero-left{flex:1 1 320px;min-width:0}
+.hero .hero-right{flex:1 1 380px;min-width:0}
 .hero .hero-left{}
 .hero .hero-tag{margin-bottom:16px;display:inline-flex;align-items:center;gap:8px;padding:6px 14px;background:var(--accent-soft);color:var(--accent);border-radius:20px;font-size:13px;font-weight:600;letter-spacing:.02em}
 .hero h1{font-size:clamp(36px,5.5vw,64px);font-weight:900;letter-spacing:-.025em;line-height:1.08;margin-bottom:24px;color:var(--ink)}
@@ -67,7 +69,6 @@ nav .links a:hover{color:var(--ink)}
 .btn-primary:hover{background:var(--accent-deep);color:#fff;text-decoration:none;box-shadow:0 4px 14px rgba(15,118,110,.25)}
 .btn-ghost{background:var(--surface);color:var(--ink);border:1px solid var(--line);box-shadow:0 1px 2px rgba(0,0,0,.04)}
 .btn-ghost:hover{background:var(--warm);text-decoration:none;border-color:var(--faint)}
-.hero .hero-right{display:flex;align-items:center;justify-content:center}
 .preview-box{background:var(--ink);border-radius:var(--radius-lg);padding:clamp(20px,4vw,32px);color:#cdd6f4;font-size:13px;box-shadow:0 24px 60px rgba(0,0,0,.18);width:100%;max-width:460px}
 .preview-box .line{display:flex;margin-bottom:6px;font-family:"JetBrains Mono",monospace}
 .preview-box .old{color:#6c7086;text-decoration:line-through}
