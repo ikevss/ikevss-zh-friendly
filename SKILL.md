@@ -1,6 +1,6 @@
 ---
 name: ikevss-zh-friendly
-description: "批量汉化 AI 工具的 skills/agents/commands/MCP 的描述文本（不是翻译代码注释或项目文档），扫描环境中已安装的技能、agent 和 MCP（不是配置或调试它们），并更新 CLAUDE.md 中的能力清单（不是修复 CLAUDE.md 格式）。当用户说看不懂英文技能描述、想翻译技能成中文、想知道环境里有哪些工具、想更新能力清单、想推荐安装 agent、想补充缺失的 description 时触发。即使用户没有明确说'汉化'，只要他们在讨论技能/工具/agent/MCP 的描述文本翻译或环境能力盘点，就应该触发。注意：不适用于翻译代码注释、编写翻译 API、调试 agent system prompt、配置 MCP 服务器、创建新技能。"
+description: "你装了一堆 AI 技能，但名字全是英文，不知道哪个是干嘛的？这个技能帮你一键翻译成中文，一眼看懂每个技能是干嘛的。当你想说'这些英文技能看不懂''我装了哪些技能？''AI 到底能做什么？''Agent 太少了，推荐几个''有些技能连描述都没有'时，它就会自动触发。支持 Claude Code、TRAE Work、Codex、Cursor、Windsurf、WorkBuddy、OpenClaw 等 13+ AI 工具。默认只预览不改文件，确认了才动手。"
 allowed-tools: Bash, Read, Write, Edit, Glob, Grep
 ---
 
