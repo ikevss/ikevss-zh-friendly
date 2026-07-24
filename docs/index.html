@@ -69,13 +69,10 @@ section{padding:clamp(60px,12vh,120px) 0;position:relative;z-index:1}
 .card-core h3{font-size:1.05rem;font-weight:700;margin-bottom:.5rem;letter-spacing:-.01em}
 .card-core p{font-size:13px;line-height:1.65;overflow-wrap:break-word;word-break:break-word}
 .card-core code{display:inline-block;margin-top:.75rem;padding:.25rem .625rem;background:var(--accent-soft);border-radius:var(--radius-sm);font-size:11px;color:var(--accent);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
-.bento{display:grid;grid-template-columns:repeat(12,1fr);gap:1rem}
-.bento .card-shell:nth-child(1){grid-column:span 7}
-.bento .card-shell:nth-child(2){grid-column:span 5}
-.bento .card-shell:nth-child(3){grid-column:span 4}
-.bento .card-shell:nth-child(4){grid-column:span 4}
-.bento .card-shell:nth-child(5){grid-column:span 4}
-.bento .card-shell:nth-child(6){grid-column:span 6}
+.bento{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.bento .card-shell:nth-child(1){grid-column:span 1}
+.bento .card-shell:nth-child(2){grid-column:span 1}
+.bento .card-shell:nth-child(3){grid-column:span 1}
 @media(max-width:768px){.bento{grid-template-columns:1fr}.bento .card-shell{grid-column:span 1!important}}
 .comp-table{max-width:860px;margin:0 auto;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden}
 .comp-table table{width:100%;border-collapse:collapse}
