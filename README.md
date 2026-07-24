@@ -61,36 +61,47 @@
 
 ---
 
-## 安装
+## 怎么装
 
-这个技能需要装在 **Claude Code** 里。如果你还没有 Claude Code，先装它：
+本技能跑在 Claude Code 这个 AI 工具里。如果你已经在用了，直接跳到第 2 步。
+
+**第 1 步：装 Claude Code（已经有就跳过）**
+
+去官网下载：
 
 ```
-# 在终端里执行这行命令
-npm install -g @anthropic-ai/claude-code
+https://claude.ai/code
 ```
 
-装好 Claude Code 后，在终端里执行这一行：
+点 Download 下载安装包，像装普通软件一样装好。装完打开，登录你的 Claude 账号。
+
+**第 2 步：装本技能**
+
+打开 Claude Code，在底部输入框输入这行，然后按回车：
 
 ```
 npx skills add ikevss/zh-friendly
 ```
 
-按回车等几秒钟，看到「Installed 1 skill」就是装好了。
+这是复制粘贴进去的，不是手打的。出现 `Installed 1 skill` 就装好了。大概等几秒钟。
 
-然后打开 Claude Code，跟它说：
+**第 3 步：开始用**
+
+跟 AI 说一句话就行：
 
 ```
 帮我把这些英文技能翻译成中文
 ```
 
-或者直接输入斜杠命令：
+它会先扫描一遍告诉你有哪些东西，问你要不要继续。你说"确认"它才会真的改。
+
+或者用斜杠命令也可以：
 
 ```
 /ikevss-zh-friendly zh
 ```
 
-**第一次用建议先用 `zh`（默认只预览不改文件），看看效果没问题了再加 `--confirm`。**
+**第一次会用 `zh` 先预览（不改文件），效果满意再说"确认"就改。**
 
 ---
 
